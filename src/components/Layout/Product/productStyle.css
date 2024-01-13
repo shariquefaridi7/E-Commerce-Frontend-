@@ -1,0 +1,52 @@
+.outer{
+       
+    width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    gap: 1rem;
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    flex-direction: column; /* Change to a column layout on smaller screens */
+    align-items: center; /* Center items on smaller screens */
+    padding: 20px; /* Adjust padding for smaller screens */
+    gap: 20px;
+  }
+
+  
+  
+}
+
+
+.div-img{
+    width: 40%;
+    position: relative;
+      height: 35rem;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+   
+}
+
+.inner{
+  padding: 2rem;
+}
+
+.outer h2{
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.outer p{
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.outer h3{
+  font-size: 1.7rem;
+  color: white;
+ 
+}
+

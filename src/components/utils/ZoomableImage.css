@@ -1,0 +1,27 @@
+/* ZoomableImage.css */
+
+.zoomable-image-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .zoomable-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .zoom-controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  

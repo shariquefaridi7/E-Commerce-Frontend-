@@ -1,0 +1,27 @@
+.outer{
+     
+    width: 70%;
+
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.img-div{
+    width: 40%;
+}
+
+.inner{
+    width: 60%;
+}
+
+.outer2{
+     
+    width: 70%;
+
+    margin: auto;
+    margin-top: 5rem;
+  
+   
+}
